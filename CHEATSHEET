@@ -7,4 +7,5 @@ apt-get install mysql-client
 Connect MYSQL server
 mysql -h192.168.1.50 -uroot -proot@123
 
-
+create database user;
+use use
