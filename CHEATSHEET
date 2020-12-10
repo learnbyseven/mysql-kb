@@ -9,3 +9,13 @@ mysql -h192.168.1.50 -uroot -proot@123
 
 create database user;
 use use
+
+
+
+CREATE TABLE emp (
+  ID SERIAL PRIMARY KEY,
+  name VARCHAR,
+  title VARCHAR,
+  age INTEGER,
+  department VARCHAR
+);
