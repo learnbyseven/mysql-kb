@@ -32,3 +32,25 @@ CREATE TABLE products (name VARCHAR(255), address VARCHAR(255))
 Correct //
 
 CREATE TABLE product (   ID SERIAL PRIMARY KEY,   name VARCHAR(255),   price INTERGER, );
+
+
+CREATE TABLE emp (
+  ID SERIAL PRIMARY KEY,
+  name VARCHAR,
+  title VARCHAR,
+  age INTEGER,
+  department VARCHAR
+);
+CREATE TABLE product (
+  ID SERIAL PRIMARY KEY,
+  name VARCHAR(255),
+  price INTERGER
+);
+
+CREATE TABLE products (name VARCHAR(255), address VARCHAR(255))
+
+
+
+Correct //
+
+CREATE TABLE product (   ID SERIAL PRIMARY KEY,   name VARCHAR(255),   price INT);
