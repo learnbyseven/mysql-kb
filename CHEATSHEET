@@ -54,3 +54,5 @@ CREATE TABLE products (name VARCHAR(255), address VARCHAR(255))
 Correct //
 
 CREATE TABLE product (   ID SERIAL PRIMARY KEY,   name VARCHAR(255),   price INT);
+
+INSERT INTO userdata (name, email, cryptocoins) VALUES ('ram', 'ram@giri.local', 300);
