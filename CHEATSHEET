@@ -56,3 +56,23 @@ Correct //
 CREATE TABLE product (   ID SERIAL PRIMARY KEY,   name VARCHAR(255),   price INT);
 
 INSERT INTO userdata (name, email, cryptocoins) VALUES ('ram', 'ram@giri.local', 300);
+CREATE TABLE userdata (
+  ID SERIAL PRIMARY KEY,
+  NAME VARCHAR(255),
+  EMAIL VARCHAR(255),
+  CRYPTOCOINS INTEGER 
+  );
+
+
+RESI API DB :
+
+CREATE DB USERS;
+CREATE TABLE userdata (ID SERIAL PRIMARY KEY, NAME VARCHAR(255), EMAIL VARCHAR(255), CRYPTOCOINS INTEGER);
+INSERT INTO userdata (name, email, cryptocoins) VALUES ('test', 'test@giri.local', 100);
+
+
+VOTE DB :
+
+
+
+
