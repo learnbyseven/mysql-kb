@@ -65,8 +65,10 @@ CREATE TABLE userdata (
 
 
 RESI API DB :
+create database users;
+# Delete; drop database users;
 
-CREATE DB USERS;
+
 CREATE TABLE userdata (ID SERIAL PRIMARY KEY, NAME VARCHAR(255), EMAIL VARCHAR(255), CRYPTOCOINS INTEGER);
 INSERT INTO userdata (name, email, cryptocoins) VALUES ('test', 'test@giri.local', 100);
 
