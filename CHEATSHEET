@@ -71,7 +71,9 @@ create database users;
 
 CREATE TABLE userdata (ID SERIAL PRIMARY KEY, NAME VARCHAR(255), EMAIL VARCHAR(255), CRYPTOCOINS INTEGER);
 INSERT INTO userdata (name, email, cryptocoins) VALUES ('test', 'test@giri.local', 100);
-
+CREATE USER 'dbuser'@'%' IDENTIFIED BY 'db@123';
+GRANT ALL ON *.* TO 'dbuser'@'%';
+SELECT host, user FROM mysql.user;
 
 VOTE DB :
 
